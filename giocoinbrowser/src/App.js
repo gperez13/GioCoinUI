@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link
+} from 'react-router-dom';
 import './App.css';
+import Home from './Home/Home.js';
+import About from './About/About.js';
+import Demo from './Demo/Demo.js';
 
 class App extends Component {
   render() {
